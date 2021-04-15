@@ -1,0 +1,42 @@
+{
+  "name": "javascript-email-validation",
+  "version": "0.1.0",
+  "description": "AbstractAPI Javascript Email Validation Library - Wrapper to quickly start using the powerful AbstractAPI's email validation service in your projects.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:lib": "npx babel src --out-dir lib",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abstractapi/javascript-email-validation.git"
+  },
+  "keywords": ["abstract", "abstractapi", "api", "email", "email validation", "email verification", "email-api", "email-api-javascript", "email-registration", "email-validation", "email-validation-input", "email-validation-plugin", "email-verification", "email-verifier", "emailvalidation", "free", "library", "javascript-library", "validation-library", "wrapper"],
+  "author": {
+    "name" : "Benjamin Bouchet",
+    "email" : "libraries@abstractapi.com",
+    "url" : "https://abstractapi.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abstractapi/javascript-email-validation/issues"
+  },
+  "homepage": "https://github.com/abstractapi/javascript-email-validation",
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-transform-async-to-generator": "^7.13.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.13.8",
+    "@babel/preset-env": "^7.13.12",
+    "babel-loader": "^8.2.2",
+    "jest": "^26.6.3",
+    "regenerator-runtime": "^0.13.7",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "javascript-core": "https://github.com/abstractapi/javascript-core.git"
+  }
+}
