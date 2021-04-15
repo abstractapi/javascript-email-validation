@@ -1,6 +1,6 @@
 {
-  "name": "javascript-email-validation",
-  "version": "0.1.0",
+  "name": "@abstractapi/javascript-email-validation",
+  "version": "0.1.2",
   "description": "AbstractAPI Javascript Email Validation Library - Wrapper to quickly start using the powerful AbstractAPI's email validation service in your projects.",
   "main": "index.js",
   "scripts": {
@@ -10,14 +10,31 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/abstractapi/javascript-email-validation.git"
+    "url": "git+https://github.com/abstractapi/javascript-email-validation.git"
   },
-  "keywords": ["abstract", "abstractapi", "api", "email", "email validation", "email verification", "email-api", "email-api-javascript", "email-registration", "email-validation", "email-validation-input", "email-validation-plugin", "email-verification", "email-verifier", "emailvalidation", "free", "library", "javascript-library", "validation-library", "wrapper"],
-  "author": {
-    "name" : "Benjamin Bouchet",
-    "email" : "libraries@abstractapi.com",
-    "url" : "https://abstractapi.com/"
-  },
+  "keywords": [
+    "abstract",
+    "abstractapi",
+    "api",
+    "email",
+    "email validation",
+    "email verification",
+    "email-api",
+    "email-api-javascript",
+    "email-registration",
+    "email-validation",
+    "email-validation-input",
+    "email-validation-plugin",
+    "email-verification",
+    "email-verifier",
+    "emailvalidation",
+    "free",
+    "library",
+    "javascript-library",
+    "validation-library",
+    "wrapper"
+  ],
+  "author": "Benjamin Bouchet <libraries@abstractapi.com> (https://abstractapi.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/abstractapi/javascript-email-validation/issues"
@@ -37,6 +54,10 @@
     "webpack-cli": "^4.5.0"
   },
   "dependencies": {
-    "javascript-core": "https://github.com/abstractapi/javascript-core.git"
+    "@abstractapi/javascript-core": "0.x"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }

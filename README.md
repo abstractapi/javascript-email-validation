@@ -19,7 +19,7 @@ You can install **javascript-email-validation** via npm, from our CDN, or downlo
 Download and install the library from npm:
 
 ```
-npm install javascript-email-validation --save
+npm install @abstractapi/javascript-email-validation --save
 ```
 
 In your project, import it and configure your `API_KEY`:
