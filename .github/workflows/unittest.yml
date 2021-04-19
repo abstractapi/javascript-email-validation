@@ -23,5 +23,6 @@ jobs:
 
     - name: Run test
       run: |
-        npm install
+        rm package-lock.json
+        npm install --no-optional
         npm run test
