@@ -54,10 +54,14 @@
     "webpack-cli": "^4.5.0"
   },
   "dependencies": {
-    "@abstractapi/javascript-core": "0.x"
+    "@abstractapi/javascript-core": "0.x",
+    "fsevents": "^2.3.2"
   },
   "directories": {
     "lib": "lib",
     "test": "test"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
   }
 }
