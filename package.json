@@ -1,6 +1,6 @@
 {
   "name": "@abstractapi/javascript-email-validation",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "AbstractAPI Javascript Email Validation Library - Wrapper to quickly start using the powerful AbstractAPI's email validation service in your projects.",
   "main": "index.js",
   "scripts": {
@@ -54,7 +54,7 @@
     "webpack-cli": "^4.5.0"
   },
   "dependencies": {
-    "@abstractapi/javascript-core": "0.x",
+    "@abstractapi/javascript-core": "1.x",
     "fsevents": "^2.3.2"
   },
   "directories": {
