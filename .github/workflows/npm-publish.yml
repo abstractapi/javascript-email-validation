@@ -9,6 +9,9 @@ jobs:
   publish:
     runs-on: ubuntu-latest
 
+    env:
+      EMAIL_VALIDATION_API_KEY: ${{ secrets.API_KEY }}
+
     steps:
       - uses: actions/checkout@v1
 
